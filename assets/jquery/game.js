@@ -26,10 +26,10 @@ $(document).ready(function(){
 
 			if(objFighter.healthPoints < 150){
 
-				randomMax = Math.floor(Math.random() * (75- 16 + 1)) + 16; //random max number between 16 and 75
+				randomMax = Math.floor(Math.random() * (75 - 30 + 1)) + 30; //random max number between 16 and 75
 			}else{
 				
-				randomMax = Math.floor(Math.random() * (30- 16 + 1)) + 16; //random max number between 16 and 30
+				randomMax = Math.floor(Math.random() * (25 - 16 + 1)) + 16; //random max number between 16 and 30
 			}
 
 			//make the Attach Power random for each new game
@@ -101,7 +101,7 @@ $(document).ready(function(){
 			randomMin = Math.floor(Math.random() * (15- 5 + 1)) + 5; //random min number between 5 and 15
 
 			if(objDefender.healthPoints < 150){
-				randomMax = Math.floor(Math.random() * (50- 16 + 1)) + 16; //random max number between 16 and 50
+				randomMax = Math.floor(Math.random() * (50- 25 + 1)) + 25; //random max number between 16 and 50
 			}else{
 				randomMax = Math.floor(Math.random() * (25- 16 + 1)) + 16; //random max number between 5 and 25
 			}
