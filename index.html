@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body padding-top: 70px;>
+	<div class="container-fluid">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					   <div id="header_title">
+					   		Star Wars RPG!
+					   </div>					
+					</div>
+				</div>
+			</div>
+			<!-- container for the characters to choose from -->
+			<div class="container clearFix">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fighter_choice" >
+						<ul id="fighters">
+							<li id="luke_skywalker" class="chooseFighter" data-healthPoints="100">
+								
+           							 <h5 class="fighterName">Luke Skywalker</h5>
+             					
+								<img src="assets/images/luke_skywalker.jpg" class="image_format">
+								
+           							 <h5 class="fighterHealthPoints">100</h5>
+             					
+							</li>
+							<li id="obi_wan" class="chooseFighter" data-healthPoints="125">
+								
+           							 <h5 class="fighterName">Obi-Wan Kenobi</h5>
+             					
+								<img src="assets/images/obi_wan.jpg" class="image_format">
+								
+           							 <h5 class="fighterHealthPoints">125</h5>
+             					
+							</li>
+							<li  id="darth_vader" class="chooseFighter" data-healthPoints="150">
+								
+           							 <h5 class="fighterName">Darth Vader</h5>
+             					
+								<img src="assets/images/darth_vader.jpg" class="image_format">
+								
+           							 <h5 class="fighterHealthPoints">150</h5>
+             					
+							</li>
+							<li  id="darth_mal" class="chooseFighter" data-healthPoints="175">
+								<h5 class="fighterName">Darth Maul</h5>
+             					
+								<img src="assets/images/darth_maul.jpg" class="image_format">
+								
+             					<h5 class="fighterHealthPoints">175</h5>
+							</li>
+						</ul>
+
+					</div>
+					<div>
+						<h2 id="h2_chooseFighter">Choose Your Fighter</h2>	
+					</div>	
+				</div>			
+ 				<div class="row clearFix">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 defender_choice">
+					<!-- choice of defenders will be added to the unordered list with id defenders -->
+
+						<ul id="defenders" >							
+						</ul>
+						
+					</div>
+					
+				</div>	
+				
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 info_section">
+						<h2 id="enemies_Avaible_h2">Enemies Available To Attack</h2>
+						<hr>
+
+						<h2>Fight Section</h2>
+						<button class="attack_button">Attack</button>
+						<button class="newGame_button element-animation">New Game</button>
+						<h2>Defender</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 defender_chosen">
+						
+					<!-- The chosen defender will be added to the unordered list with id of defender -->
+						<ul id="defender">							
+						</ul>
+												
+					</div>
+
+				</div>	
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 defender_chosen">
+						<h6 class="attacker"></h6>
+						<h6 class="defender"></h6>
+					</div>
+				</div>		
+			</div>			
+		</header>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery.js"></script>
+	
+	<script src="assets/jquery/game.js"></script>
+</body>
+</html>

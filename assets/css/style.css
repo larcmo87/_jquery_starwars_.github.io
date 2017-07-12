@@ -1,0 +1,205 @@
+/*html { 
+  background: url(../images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
+body{
+  background: url(../images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto;
+  margin-left: 20px;
+
+
+}
+
+h2{
+	font-size: 25px;
+	color: #ffffff;
+	margin: 0 0 0 20px;
+	padding: 0 0 0 0;
+}
+
+hr{
+	margin: 5px 0 5px 20px;
+	display:block;
+	width: 33%;
+	height:;
+}
+
+/*formats the text of the child <p> element of the li element with class of chooseFighter*/
+li.chooseFighter h5{
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+li.chooseDefender h5{
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+li.chosenDefender h5{
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+button.newGame_button{
+	visibility: hidden;
+}
+
+/*Begining of ids*/
+/*styling for the header text*/
+#header_title{
+	float: right;
+	font-size: 3em;
+	color: #ffffff;
+}
+
+/*<ul> element that holds the <li> element for the characters to choose from*/
+#fighters{
+	list-style-type: none;
+	/*float: left;*/
+	margin: 0 0 0 15px;
+	padding: 0 0 0 0;
+}
+
+/*<ul> element that holds the <li> element for the enemies to choose from*/
+#defenders{
+	display:inline-block;
+	list-style-type: none;
+	margin: 10px 0 0 15px;
+	padding: 0 0 0 0;
+}
+
+#defender{
+	list-style-type: none;
+	float: left;
+	margin: 10px 0 0 15px;
+	padding: 0 0 0 0;
+}
+
+/*Begining of Classes*/
+/*the <li> element that holds the information and image for each character to choose from*/
+.chooseFighter{
+	/*float:left;*/
+	padding: 0px 10px 0px 10px;
+	background-color: white;
+	border: 2px solid green;
+	display:inline-block;
+	margin: 0 0 0 0;
+	
+}
+
+.chooseDefender{
+	float:left;
+	display:block;
+	padding: 0px 10px 0px 10px;
+	background-color: #8A0707;
+	border: 2px solid #5b0303;
+	color: white;
+	display:inline-block;
+	margin: 0 0 0 0;
+}
+
+.chosenDefender{
+	
+	padding: 0px 10px 0px 10px;
+	background-color: #000000;
+	border: 2px solid #d11414;
+	color: white;
+	display:inline-block;
+	margin: 0 0 0 0;
+}
+
+.defender_chosen{
+	float: left;
+	display:inline-block;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+/*the format for each character image*/
+.image_format{
+	width: 100px;
+	height: 100px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+
+}
+
+.fighter_choice{
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.defender_choice{
+	float: left;
+	display:inline;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	/*height: 150px;*/
+
+
+}
+.attacker, .defender{
+	
+	display:block;
+	margin: 10px 0 0 18px;
+	padding: 0 0 0 0;
+}
+
+.info_section{
+	/*float: left;*/
+	/*display:block;*/
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.defender_chosen h6{
+	display:block;
+	color: white;
+	
+}
+/*the character name and character health points text styling*/
+.text-field{ 
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.attack_button{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.attack_info{
+	display:block;
+	float:left;
+}
+
+.newGame_button{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.clearFix:after{
+	content: "";
+	display:block;
+	clear:both;
+}
+	
+@media only screen and (max-width: 439px){
+	h2{
+		font-size: 20px;
+	}
+}
